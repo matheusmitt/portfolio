@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;700&display=swap');
+
+
+
+*{
+    position: relative;
+    background: #FF7A7A;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;}
+
+body {
+    top: -260px;
+    margin: 0;
+    padding: 0px;
+    background-repeat: repeat;
+    background-image: url(./images/bg-intro-desktop.png);
+    background-size: 100%;
+    background-position: center;
+    height: 120vh;
+    width: 100%;
+}
+.container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top: 360px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.textos{ 
+    display: block;
+    width: 585px;
+    height: 250px;
+    left: 300px;
+    top: 100px;
+    font-weight: bold;
+    background: transparent;}
+.botaoazul{
+    position: absolute;
+    width: 548px;
+    height: 50px;
+    left: 950px;
+    top: 60px;
+    background: #6055A5;
+    border-radius: 10px;
+    font-size: 16px; 
+    line-height: 24px;
+    border-style: none;}
+button:hover:focus:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px) translateX(1px);}
+.forms{
+    position: absolute;
+    width: 548px;
+    height: 338px;
+    left: 950px;
+    top: 150px;
+    position: absolute;
+    background: #FFFFFF;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-right: 60px;
+    justify-content: center;}
+input{
+    border: 1px solid;
+    border-radius: 4px;
+}
+input:focus{
+    border: none;
+}
+.erros{
+    background-color: #FFF;
+    justify-content: right;
+    display: none; 
+    color: #FF1313; 
+    position: absolute; 
+    font-size: 10px;
+    font-style: italic;
+    left: 4%;
+}
+input{
+    height: 30px;
+    width: 450px;
+    margin: 12px;
+    top: 20px;
+    left: 25px;
+    background: #FFF;
+    color: #000;
+    padding-left: 15px;}
+::placeholder{
+    font-weight: 500;
+}
+.botaoverde{
+    position: relative;
+    width: 371px;
+    height: 33px;
+    left: 18%;
+    top: 35px;
+    background: #33C787;
+    border-radius: 10px;
+    border-style: none;}
+.termos{
+    position: absolute;
+    width: 400px;
+    height: 15px;
+    left: 18.2%;
+    top: 315px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 12px;
+    color: #B9B6D3;
+    background: #FFF;
+}
+

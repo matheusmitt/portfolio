@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <title>Página de formulário</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<div class="container"> 
+<div class="textos" style="background: transparent;">
+  <span style="font-size: 42px; line-height: 63px; font-weight: bold;">Aprenda a codar observando os outros</span> <br />
+
+  <span style="top: 30px; font-weight: 600;">Veja como desenvolvedores experientes solucionam problemas em tempo real.
+  Assistir tutoriais é ótimo, mas entender como desenvolvedores pensam é sem preço.</span>
+  </div>
+<button class="botaoazul" type="button">
+  Experimente 7 dias grátis e depois apenas R$20/m
+</button>
+
+<div class="forms">
+  <input type="text" placeholder="Nome" id="nome" style="margin-top: 10px;">
+  <p id="erroNome" class="erros"></p>
+  <input type="text" placeholder="Sobrenome" id="sobrenome">
+  <p id="erroSobrenome" class="erros"></p>
+  <input type="text" placeholder="Endereço de e-mail" id="mail">
+  <p id="erroEmail" class="erros"></p>
+  <input type="text" placeholder="Senha" id="senha">
+  <p id="erroSenha" class="erros"></p>
+  <button type="button" class="botaoverde" onclick="acionarTrial()">
+    Adquirir o período de teste </button>
+  
+  <span class="termos">Ao adquirir o período de teste você estará aceitando nossos <a style="color: #FF1313; background: #FFF;">Termos e condições de serviço.</a></span>
+  </div>
+</div>
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
